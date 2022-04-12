@@ -1,0 +1,186 @@
+# Reading S:/intelFPGA/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do TaskDDS_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying S:/intelFPGA/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/TaskDDS.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:49 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/TaskDDS.v 
+# -- Compiling module TaskDDS
+# 
+# Top level modules:
+# 	TaskDDS
+# End time: 14:26:50 on Apr 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/AM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:50 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/AM.v 
+# -- Compiling module AM
+# 
+# Top level modules:
+# 	AM
+# End time: 14:26:50 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/ROM_sin.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:50 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/ROM_sin.v 
+# -- Compiling module ROM_sin
+# 
+# Top level modules:
+# 	ROM_sin
+# End time: 14:26:50 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/MULT_s.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:50 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/MULT_s.v 
+# -- Compiling module MULT_s
+# 
+# Top level modules:
+# 	MULT_s
+# End time: 14:26:50 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/FM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:50 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/FM.v 
+# -- Compiling module FM
+# 
+# Top level modules:
+# 	FM
+# End time: 14:26:50 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/MODE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:50 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/MODE.v 
+# -- Compiling module MODE
+# 
+# Top level modules:
+# 	MODE
+# End time: 14:26:50 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/AM_De.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:50 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/AM_De.v 
+# -- Compiling module AM_De
+# 
+# Top level modules:
+# 	AM_De
+# End time: 14:26:51 on Apr 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/DIVIDE_s.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:51 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/DIVIDE_s.v 
+# -- Compiling module DIVIDE_s
+# 
+# Top level modules:
+# 	DIVIDE_s
+# End time: 14:26:51 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/SINCOS.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:51 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/SINCOS.v 
+# -- Compiling module SINCOS
+# 
+# Top level modules:
+# 	SINCOS
+# End time: 14:26:51 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/SQRT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:51 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/SQRT.v 
+# -- Compiling module SQRT
+# 
+# Top level modules:
+# 	SQRT
+# End time: 14:26:51 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/filter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:51 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/filter.v 
+# -- Compiling module filter
+# 
+# Top level modules:
+# 	filter
+# End time: 14:26:51 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/FM_De.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:51 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/FM_De.v 
+# -- Compiling module FM_De
+# 
+# Top level modules:
+# 	FM_De
+# End time: 14:26:51 on Apr 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Fu\ Yuhao/Nutstore/1/CODE/TaskDDS/simulation/modelsim {C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/simulation/modelsim/TaskDDS.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:26:51 on Apr 09,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/simulation/modelsim" C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/simulation/modelsim/TaskDDS.vt 
+# -- Compiling module TaskDDS_vlg_tst
+# 
+# Top level modules:
+# 	TaskDDS_vlg_tst
+# End time: 14:26:52 on Apr 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TaskDDS_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" TaskDDS_vlg_tst 
+# Start time: 14:26:52 on Apr 09,2022
+# Loading work.TaskDDS_vlg_tst
+# Loading work.TaskDDS
+# Loading work.MODE
+# Loading work.SINCOS
+# Loading work.ROM_sin
+# Loading altera_mf_ver.altsyncram
+# Loading work.AM
+# Loading work.MULT_s
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.DIVIDE_s
+# Loading lpm_ver.lpm_divide
+# Loading work.FM
+# Loading work.AM_De
+# Loading work.filter
+# Loading work.SQRT
+# Loading altera_mf_ver.altsqrt
+# Loading work.FM_De
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+restart
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Note: $stop    : C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/simulation/modelsim/TaskDDS.vt(172)
+#    Time: 20000025 ns  Iteration: 1  Instance: /TaskDDS_vlg_tst
+# Break in Module TaskDDS_vlg_tst at C:/Users/Fu Yuhao/Nutstore/1/CODE/TaskDDS/simulation/modelsim/TaskDDS.vt line 172
+# End time: 14:37:03 on Apr 09,2022, Elapsed time: 0:10:11
+# Errors: 0, Warnings: 0
