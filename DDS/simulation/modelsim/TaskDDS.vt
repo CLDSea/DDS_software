@@ -1,0 +1,188 @@
+`timescale 1 ns/ 1 ns
+module TaskDDS_vlg_tst();
+// constants
+// general purpose registers
+reg eachvec;
+// test vector input registers
+
+reg clk;
+reg [23: 0] fc;
+reg [15: 0] fd;
+reg [23: 0] fs;
+reg [3: 0] ma;
+reg [2: 0] mode;
+reg rst_n;
+// wires
+wire [15: 0] sig_out;
+
+// assign statements (if any)
+TaskDDS i1
+        (
+            // port map - connection between master ports and signals/registers
+            .clk(clk),
+            .fc(fc),
+            .fd(fd),
+            .fs(fs),
+            .ma(ma),
+            .mode(mode),
+            .rst_n(rst_n),
+            .sig_out(sig_out)
+        );
+
+initial
+begin
+    clk = 0;
+    rst_n = 1;
+    #10 rst_n = 0;
+    #10 rst_n = 1;
+    forever
+        #5 clk = ~clk;
+end
+initial
+begin
+    fc = 0;
+    fd = 0;
+    fs = 0;
+    ma = 0;
+    mode = 0;
+    //#3_000_000
+//    begin //基本要求(2)
+//        mode = 3'b000;
+//        fc = 1_000;
+//        fc = 10_000_000;
+//    end
+//    begin //基本要求(3)
+//        mode = 0;
+//        fc = 3_000;
+//    end
+//    begin //发挥要求(3)
+//        mode = 3'b001;
+//        fc = 10_000_000;
+//        fs = 50_000;
+//        ma = 10;
+//        fc = 500_000;
+//        fs = 1_000;
+//        ma = 10;
+//        fc = 500_000;
+//        fs = 1_010;
+//        ma = 7;
+//        fc = 500_000;
+//        fs = 10_000;
+//        ma = 1;
+//    end
+//    begin //发挥要求(4)
+//        mode = 3'b010;
+//        fc = 10_000_000;
+//        fs = 1_000;
+//        fd = 20_000;
+//        fc = 500_000;
+//        fs = 1_000;
+//        fd = 5_000;
+//        fc = 500_000;
+//        fs = 1_000;
+//        fd = 20_000;
+//        fc = 500_000;
+//        fs = 1_000;
+//        fd = 17_000;
+//    end
+//    begin //发挥要求(5)
+//        mode = 3'b011;
+//        fc = 10_700_000;
+//        fs = 3_300;
+//        ma = 10;
+//    end
+//      begin //FM解调
+//		    mode = 3'b100;
+//          fc = 10_700_000;
+//          fs = 3_300;
+//          fd = 20_000;
+//		end
+end
+
+//
+//reg clk2;
+//reg [23: 0] fc2;
+//reg [15: 0] fd2;
+//reg [23: 0] fs2;
+//reg [3: 0] ma2;
+//reg [2: 0] mode2;
+//reg rst_n2;
+//wire [15: 0] sig_out2;
+//wire [16: 0] sig_sum = sig_out + sig_out2;
+//TaskDDS i2
+//        (
+//            // port map - connection between master ports and signals/registers
+//            .clk(clk2),
+//            .fc(fc2),
+//            .fd(fd2),
+//            .fs(fs2),
+//            .ma(ma2),
+//            .mode(mode2),
+//            .rst_n(rst_n2),
+//            .sig_out(sig_out2)
+//        );
+//initial
+//begin
+//    clk2 = 0;
+//    rst_n2 = 1;
+//    #10 rst_n2 = 0;
+//    #10 rst_n2 = 1;
+//    forever
+//        #5 clk2 = ~clk2;
+//end
+//initial
+//begin //基本要求(3)
+//    fc2 = 0;
+//    fd2 = 0;
+//    fs2 = 0;
+//    ma2 = 0;
+//    mode2 = 0;
+//
+//    mode2 = 3'b000;
+//    fc2 = 3_100;
+//    fc2 = 3_010;
+//end
+//
+
+//reg [31: 0] i = 0;
+//parameter n = 2_000_000;
+//always @ (posedge clk)
+//begin
+//    if (!rst_n)
+//    begin
+//        i <= 0;
+//    end
+//    else if (i < n)
+//    begin
+//        i <= i + 1;
+//    end
+//    else
+//    begin
+//        i <= n;
+//    end
+//end
+//integer w_file;
+//initial
+//    w_file = $fopen("data_out_4.txt");
+//always @(posedge clk)
+//begin
+//    $fdisplay(w_file, "%d", sig_out);
+//    if (i == n)    //共写入n个数据
+//    begin
+//        $stop;
+//    end
+//end
+
+
+always
+    // optional sensitivity list
+    // @(event1 or event2 or .... eventn)
+begin
+    // code executes for every event on sensitivity list
+    // insert code here --> begin
+
+    @eachvec;
+    // --> end
+end
+endmodule
+
